@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Studio | Moda Femenina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">GLOW STUDIO</div>
+        <ul class="nav-links">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#collection">Colección</a></li>
+            <li><a href="#wishlist">Wishlist (<span id="wishlist-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Elegancia Minimalista</h1>
+            <p>Descubre la nueva temporada</p>
+            <a href="#collection" class="btn-shop">Shop the Look</a>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="category-item">
+            <img src="https://images.unsplash.com/photo-1515347619253-0fa6ddb5c242?w=500&auto=format&fit=crop&q=60" alt="Vestidos">
+            <span>Vestidos</span>
+        </div>
+        <div class="category-item">
+            <img src="https://images.unsplash.com/photo-1550639525-c97d455acf70?w=500&auto=format&fit=crop&q=60" alt="Abrigos">
+            <span>Abrigos</span>
+        </div>
+        <div class="category-item">
+            <img src="https://images.unsplash.com/photo-1509319117193-57bab727e09d?w=500&auto=format&fit=crop&q=60" alt="Accesorios">
+            <span>Accesorios</span>
+        </div>
+    </section>
+
+    <section id="collection" class="collection-section">
+        <h2 class="section-title">La Colección</h2>
+        
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todo</button>
+            <button class="filter-btn" data-filter="dresses">Vestidos</button>
+            <button class="filter-btn" data-filter="accessories">Accesorios</button>
+        </div>
+
+        <div class="grid-container" id="product-grid">
+            </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Glow Studio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
