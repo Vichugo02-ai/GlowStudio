@@ -1,68 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glow Studio | Moda Editorial</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glow Studio - Moda Femenina</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="logo">GLOW STUDIO</div>
-        <div class="nav-icons">
-            <a href="#wishlist" class="wishlist-link">
-                <span>Wishlist</span>
-                <span id="wishlist-count" class="badge">0</span>
-            </a>
-        </div>
-    </nav>
-
-    <header class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1>Nueva Colección</h1>
-            <p>La elegancia en su mínima expresión</p>
-            <a href="#collection" class="btn-primary">Shop the Look</a>
-        </div>
-    </header>
-
-    <section class="categories-section">
-        <div class="categories-carousel">
-            <div class="category-item" data-filter="dresses">
-                <img src="https://images.unsplash.com/photo-1515347619253-0fa6ddb5c242?w=400&q=80" alt="Vestidos">
-                <span>Vestidos</span>
-            </div>
-            <div class="category-item" data-filter="outerwear">
-                <img src="https://images.unsplash.com/photo-1550639525-c97d455acf70?w=400&q=80" alt="Abrigos">
-                <span>Abrigos</span>
-            </div>
-            <div class="category-item" data-filter="accessories">
-                <img src="https://images.unsplash.com/photo-1509319117193-57bab727e09d?w=400&q=80" alt="Accesorios">
-                <span>Accesorios</span>
-            </div>
-            <div class="category-item active" data-filter="all">
-                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400&q=80" alt="Ver Todo">
-                <span>Ver Todo</span>
-            </div>
-        </div>
-    </section>
-
-    <main id="collection" class="collection-section">
-        <h2 class="section-title">Catálogo</h2>
-        <div class="product-grid" id="product-grid">
-            </div>
-    </main>
-
-    <div class="bottom-filter-bar">
-        <button class="filter-btn active" data-filter="all">Todo</button>
-        <button class="filter-btn" data-filter="dresses">Vestidos</button>
-        <button class="filter-btn" data-filter="outerwear">Abrigos</button>
-        <button class="filter-btn" data-filter="accessories">Accesorios</button>
-    </div>
-
-    <script src="main.js"></script>
-</body>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="./main.js"></script>
+    <link rel="stylesheet" crossorigin href="./main.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
+
